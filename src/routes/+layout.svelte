@@ -13,18 +13,62 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
+	import { initializeStores, Drawer } from '@skeletonlabs/skeleton';
+
+	initializeStores();
+
+	import { getDrawerStore } from "@skeletonlabs/skeleton";
+	import { page } from '$app/stores';
+
+	const drawerStore = getDrawerStore();
+
 	// Drawer Handler
 	function drawerOpen(): void {
-		// const s: DrawerSettings = { id: 'mobile-sidenav' };
-		// drawerStore.open(s);
+		//const s: DrawerSettings = { id: 'mobile-sidenav' };
+		drawerStore.open();
 	}
-</script>
 
+	function drawerClose(): void {
+		//const s: DrawerSettings = { id: 'mobile-sidenav' };
+		drawerStore.close();
+	}
+
+	$: classesActive = (href: string) => (href === $page.url.pathname ? '!variant-filled-primary' : '');
+</script>
+<Drawer>
+	<section class="p-4 pb-20 space-y-4 overflow-y-auto">
+			<!-- Title -->
+			<div class="flex justify-end">
+				<!-- Hamburger Menu -->
+				<button on:click={drawerClose} class="btn-icon btn-icon-sm">
+					<i class="fa-solid fa-close text-xl"></i>
+				</button>
+			</div>
+			<!-- Nav List -->
+			<nav class="list-nav">
+				<ul>
+						<li>
+							<a href="#rsvp" class="{classesActive("#rsvp")}" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">RSVP</span>
+							</a>
+						</li>
+						<li>
+							<a href="#venue" class="{classesActive("#venue")}"  data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">Venue</span>
+							</a>
+						</li>
+						
+				</ul>
+			</nav>
+			<!-- Divider -->
+			<hr class="!my-6 opacity-50" />
+	</section>
+</Drawer>
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
-		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+		<AppBar gridColumns="grid-cols-[auto_1fr_auto]" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
 				<div class="flex items-center space-x-4">
 					<!-- Hamburger Menu -->
@@ -33,7 +77,7 @@
 					</button>
 					<!-- Logo -->
 					<a class="lg:!ml-0 w-[32px] lg:w-auto overflow-hidden" href="#intro" title="Go to Homepage">
-						Amy ❤️ Jeff
+						A❤️J
 					</a>
 				</div>
 			</svelte:fragment>
@@ -41,13 +85,16 @@
 				<a class="btn btn-sm" href="#howWeMet">
 					How We Met
 				</a>
-				<a class="btn btn-sm" href="/">
-					Events
-				</a>
-				<a class="btn btn-sm" href="/">
+				<a class="btn btn-sm" href="#photos">
 					Photos
 				</a>
-				<a class="btn btn-sm" href="/">
+				<a class="btn btn-sm" href="#questions">
+					Q&A
+				</a>
+				<a class="btn btn-sm" href="#registry">
+					Registry
+				</a>
+				<a class="btn btn-sm" href="#town">
 					Glimpse of the Town
 				</a>
 		</div>
@@ -56,7 +103,7 @@
 				<a class="btn btn-sm variant-ghost-surface" href="#venue">
 					Venue
 				</a>
-				<a class="btn btn-smv variant-filled-primary" href="/">
+				<a class="btn btn-smv variant-filled-primary" href="#rsvp">
 					RSVP
 				</a>
 			</svelte:fragment>

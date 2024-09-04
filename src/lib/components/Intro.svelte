@@ -3,13 +3,24 @@
 October 11, 2025
 
 <figure>
-  <div class="img-bg" />
+  <!-- <div class="img-bg scale-x-[60%]"></div> -->
   <svg
-    class="fill-token -scale-x-[100%]"
+    class="fill-token"
 		xmlns="http://www.w3.org/2000/svg"
 	  viewBox="0 0 400 400">
 <g>
-	<path fill-rule="evenodd" class="st1" d="M161.67,362.3c2.86,2.19,3.97,3.14,7.92,6.79c3.01,2.78,5.73,5.19,7.17,6.35c1.69,1.36,1.47,1.28-0.94-0.33
+  <defs>
+    <!-- <filter id="glow">
+      <fegaussianblur result="coloredBlur" stddeviation="1"></fegaussianblur>
+      <femerge>
+        <femergenode in="coloredBlur"></femergenode>
+        <femergenode in="coloredBlur"></femergenode>
+        <femergenode in="coloredBlur"></femergenode>
+        <femergenode in="SourceGraphic"></femergenode>
+      </femerge>
+    </filter> -->
+  </defs>
+	<path fill-rule="evenodd" style="filter: url(#glow);" d="M161.67,362.3c2.86,2.19,3.97,3.14,7.92,6.79c3.01,2.78,5.73,5.19,7.17,6.35c1.69,1.36,1.47,1.28-0.94-0.33
 		c-4.81-3.23-9.73-7.41-15.53-13.2c-2.16-2.16-2.78-2.83-2.12-2.31C158.69,360.01,160.26,361.22,161.67,362.3 M228.72,254.75
 		c0.19,0.69,0.98,2.97,1.77,5.07c2.46,6.54,3.5,10.12,4.66,15.99c0.58,2.92,0.58,3.16,0.01,1.95c-2.24-4.75-3.34-8.33-4.13-13.44
 		c-0.35-2.23-0.73-3.74-1.63-6.38c-0.88-2.59-1.24-3.93-1.22-4.59C228.18,252.78,228.2,252.84,228.72,254.75 M101.16,251.17
@@ -308,15 +319,16 @@ October 11, 2025
 <style lang="postcss">
 	figure {
 		@apply flex relative flex-col;
+    /* animation: heartpulse 1s cubic-bezier(0, 0, 0, 0.5) infinite; */
 	}
 	figure svg,
-	.img-bg {
+  .img-bg  {
 		@apply w-64 h-64 md:w-80 md:h-80;
 	}
 	.img-bg {
-		@apply absolute z-[-1] rounded-full blur-[50px] transition-all;
+		/* @apply absolute z-[-1] rounded-full blur-[50px] transition-all;
 		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
-			glow 5s linear infinite;
+			glow 5s linear infinite; */
 	}
 	@keyframes glow {
 		0% {
@@ -335,6 +347,12 @@ October 11, 2025
 	@keyframes pulse {
 		50% {
 			transform: scale(1.5);
+		}
+	}
+
+  @keyframes heartpulse {
+		80% {
+			transform: scale(.99);
 		}
 	}
 </style>
