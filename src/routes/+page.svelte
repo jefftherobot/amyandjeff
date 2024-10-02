@@ -9,8 +9,8 @@
 	import Rsvp from "$lib/components/Rsvp.svelte";
 </script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
+<div class="h-full w-full flex justify-center items-center">
+	<div class="space-y-10 w-full  text-center flex flex-col items-center">
 		<section id="intro">
 			<Intro />
 		</section>
@@ -40,7 +40,7 @@
 
 <style>
 	section{ 
-		padding: 20px; 
+		width: 100%;
 		min-height: 750px;
 		}
 </style>

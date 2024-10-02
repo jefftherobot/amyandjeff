@@ -76,9 +76,9 @@
 						<i class="fa-solid fa-bars text-xl"></i>
 					</button>
 					<!-- Logo -->
-					<a class="lg:!ml-0 w-[32px] lg:w-auto overflow-hidden" href="#intro" title="Go to Homepage">
+					<!-- <a class="lg:!ml-0 w-[32px] lg:w-auto overflow-hidden" href="#intro" title="Go to Homepage">
 						A❤️J
-					</a>
+					</a> -->
 				</div>
 			</svelte:fragment>
 			<div class="relative hidden lg:block">

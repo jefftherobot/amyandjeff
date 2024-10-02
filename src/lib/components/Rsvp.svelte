@@ -1,5 +1,5 @@
 
-<h2 class="h2">RSVP</h2>
+<h2 class="h2 mb-10">RSVP</h2>
 
 <div class="p-4 md:p-10 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary "> 
   <div class="flex justify-center items-center mx-auto transition-[width] duration-200 w-full ">

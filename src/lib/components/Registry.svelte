@@ -1,5 +1,5 @@
 
-<h2 class="h2">Registry</h2>
+<h2 class="h2 mb-10">Registry</h2>
 
 <p>info about registry options</p>
 
