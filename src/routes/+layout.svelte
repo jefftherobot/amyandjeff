@@ -67,47 +67,48 @@
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
-		<AppBar gridColumns="grid-cols-[auto_1fr_auto]" slotDefault="place-self-center" slotTrail="place-content-end">
-			<svelte:fragment slot="lead">
-				<div class="flex items-center space-x-4">
-					<!-- Hamburger Menu -->
-					<button on:click={drawerOpen} class="btn-icon btn-icon-sm lg:!hidden">
-						<i class="fa-solid fa-bars text-xl"></i>
-					</button>
-					<!-- Logo -->
-					<!-- <a class="lg:!ml-0 w-[32px] lg:w-auto overflow-hidden" href="#intro" title="Go to Homepage">
-						A❤️J
-					</a> -->
-				</div>
-			</svelte:fragment>
-			<div class="relative hidden lg:block">
-				<a class="btn btn-sm" href="#howWeMet">
-					How We Met
-				</a>
-				<a class="btn btn-sm" href="#photos">
-					Photos
-				</a>
-				<a class="btn btn-sm" href="#questions">
-					Q&A
-				</a>
-				<a class="btn btn-sm" href="#registry">
-					Registry
-				</a>
-				<a class="btn btn-sm" href="#town">
-					Glimpse of the Town
-				</a>
-		</div>
-			
-			<svelte:fragment slot="trail">
-				<a class="btn btn-sm variant-ghost-surface" href="#venue">
-					Venue
-				</a>
-				<a class="btn btn-smv variant-filled-primary" href="#rsvp">
-					RSVP
-				</a>
-			</svelte:fragment>
-		</AppBar>
+		
+			<!-- App Bar -->
+			<AppBar gridColumns="grid-cols-[auto_1fr_auto]" slotDefault="" slotTrail="place-content-end" >
+				<svelte:fragment slot="lead">
+					<div class="flex items-center space-x-4">
+						<!-- Hamburger Menu -->
+						<button on:click={drawerOpen} class="btn-icon btn-icon-sm lg:!hidden">
+							<i class="fa-solid fa-bars text-xl"></i>
+						</button>
+						<!-- Logo -->
+						<a class="lg:!ml-0 w-[32px] lg:w-auto overflow-hidden" href="#intro" title="Go to Homepage">
+							A❤️J
+						</a>
+					</div>
+				</svelte:fragment>
+				<div class="relative hidden lg:block">
+					<a class="btn btn-sm ml-5" href="#events">
+						Events
+					</a>
+					<a class="btn btn-sm ml-5" href="#photos">
+						Photos
+					</a>
+					<a class="btn btn-sm ml-5" href="#questions">
+						Q&A
+					</a>
+					<a class="btn btn-sm ml-5" href="#registry">
+						Registry
+					</a>
+					<a class="btn btn-sm ml-5" href="#town">
+						Glimpse of the Town
+					</a>
+			</div>
+				
+				<svelte:fragment slot="trail">
+					<a class="btn btn-sm variant-ghost-surface" href="#venue">
+						Venue
+					</a>
+					<a class="btn btn-smv variant-filled-primary" href="#rsvp">
+						RSVP
+					</a>
+				</svelte:fragment>
+			</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />

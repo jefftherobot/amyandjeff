@@ -36,7 +36,7 @@
   <h2 class="h2 mb-10">Events</h2>
   <div class="table-container mx-auto max-w-screen-md bg-surface-100-800-token">
     <!-- Native Table Element -->
-    <table class="table table-hover">
+    <table class="table">
       <!-- <thead>
         <tr>
           <th>Position</th>
