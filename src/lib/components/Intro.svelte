@@ -1,6 +1,6 @@
 
-<h2 class="h2 mt-10">Amy & Jeff</h2>
-October 11, 2025
+<h2 class="h2 m-10">Amy & Jeff</h2>
+October 11, 2025 | Rose Valley, PA
 <div class="flex justify-center">
 	<figure>
 		<div class="img-bg scale-x-[48%] scale-y-[70%]"></div>
@@ -315,6 +315,14 @@ October 11, 2025
 		</svg>
 	</figure>
 </div>
+
+<div class="flex justify-center m-10">
+	5:00 PM–10:00 PM<br>
+	Cocktail or Semi-formal Attire
+</div>
+
+
+
 <style lang="postcss">
 	figure {
 		@apply flex relative flex-col;

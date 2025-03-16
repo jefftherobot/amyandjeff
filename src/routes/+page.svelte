@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Intro from "$lib/components/Intro.svelte";
-	import HowWeMet from "$lib/components/HowWeMet.svelte";
+	import Events from "$lib/components/Events.svelte";
 	import Photos from "$lib/components/Photos.svelte";
 	import Questions from "$lib/components/Questions.svelte";
 	import Town from "$lib/components/Town.svelte";
@@ -14,8 +14,8 @@
 		<section id="intro">
 			<Intro />
 		</section>
-		<section id="howWeMet">
-			<HowWeMet />
+		<section id="events">
+			<Events />
 		</section>
 		<section id="photos">
 			<Photos />
@@ -41,6 +41,6 @@
 <style>
 	section{ 
 		width: 100%;
-		min-height: 750px;
+		/* min-height: 700px; */
 		}
 </style>

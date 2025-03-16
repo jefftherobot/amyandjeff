@@ -15,10 +15,11 @@
 }
 </script>
 
-<h2 class="h2 mb-10">Q&A</h2>
+
 
 <div class="p-4 md:p-7 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary ">
-  <Accordion autocollapse hover="hover:bg-tertiary-hover-token" padding="py-4 px-4" class="mx-auto max-w-screen-xl bg-surface-100-800-token">
+  <h2 class="h2 mb-10">Q&A</h2>
+  <Accordion autocollapse hover="hover:bg-tertiary-hover-token" padding="py-4 px-4" class="mx-auto max-w-screen-md bg-surface-100-800-token">
 
     {#each DATA.faqs as faq }
       <AccordionItem>
