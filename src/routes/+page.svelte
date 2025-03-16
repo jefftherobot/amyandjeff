@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Intro from "$lib/components/Intro.svelte";
 	import Events from "$lib/components/Events.svelte";
-	import Photos from "$lib/components/Photos.svelte";
 	import Questions from "$lib/components/Questions.svelte";
 	import Town from "$lib/components/Town.svelte";
 	import Registry from "$lib/components/Registry.svelte";
@@ -16,9 +15,6 @@
 		</section>
 		<section id="events">
 			<Events />
-		</section>
-		<section id="photos">
-			<Photos />
 		</section>
 		<section id="questions">
 			<Questions />

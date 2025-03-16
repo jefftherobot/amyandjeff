@@ -86,9 +86,6 @@
 					<a class="btn btn-sm ml-5" href="#events">
 						Events
 					</a>
-					<a class="btn btn-sm ml-5" href="#photos">
-						Photos
-					</a>
 					<a class="btn btn-sm ml-5" href="#questions">
 						Q&A
 					</a>
