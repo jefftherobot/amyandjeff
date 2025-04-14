@@ -1,7 +1,7 @@
 
-<h2 class="h2 m-10">Amy & Jeff</h2>
+<h2 class="h2 pt-20 pb-2">Amy & Jeff</h2>
 October 11, 2025 | Rose Valley, PA
-<div class="flex justify-center">
+<div class="flex justify-center pt-10">
 	<figure>
 		<div class="img-bg scale-x-[48%] scale-y-[70%]"></div>
 		<svg
@@ -316,7 +316,7 @@ October 11, 2025 | Rose Valley, PA
 	</figure>
 </div>
 
-<div class="flex justify-center m-10">
+<div class="flex justify-center p-20">
 	5:00 PM–10:00 PM<br>
 	Cocktail or Semi-formal Attire
 </div>

@@ -10,18 +10,16 @@
 </script>
 
 <div class="h-full w-full flex justify-center items-center">
-	<div class="space-y-10 w-full  text-center flex flex-col items-center">
+	<div class="w-full text-center flex flex-col items-center">
 		<section id="intro">
 			<Intro />
 		</section>
 		<section id="events">
 			<Events />
 		</section>
-		<section id="town">
+		<!-- <section id="town">
 			<Town />
-		</section>
-
-
+		</section> -->
 		<section id="venue">
 			<Venue />
 		</section>
@@ -43,6 +41,5 @@
 <style>
 	section{ 
 		width: 100%;
-		/* min-height: 700px; */
 		}
 </style>

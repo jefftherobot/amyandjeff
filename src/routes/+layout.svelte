@@ -3,8 +3,11 @@
 	
 	// Font Awesome
 	import '@fortawesome/fontawesome-free/css/fontawesome.css';
+	import '@fortawesome/fontawesome-free/css/regular.css';
 	import '@fortawesome/fontawesome-free/css/brands.css';
 	import '@fortawesome/fontawesome-free/css/solid.css';
+
+	import "@fontsource/alegreya";
 
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 
@@ -71,7 +74,7 @@
 			<!-- App Bar -->
 			<AppBar gridColumns="grid-cols-[auto_1fr_auto]" slotDefault="" slotTrail="place-content-end" >
 				<svelte:fragment slot="lead">
-					<div class="flex items-center space-x-4">
+					<div class="flex items-center space-x-4 uppercase">
 						<!-- Hamburger Menu -->
 						<button on:click={drawerOpen} class="btn-icon btn-icon-sm lg:!hidden">
 							<i class="fa-solid fa-bars text-xl"></i>
@@ -82,13 +85,13 @@
 						</a>
 					</div>
 				</svelte:fragment>
-				<div class="relative hidden lg:block">
+				<div class="relative hidden lg:block uppercase">
 					<a class="btn btn-sm ml-5" href="#events">
 						Events
 					</a>
-					<a class="btn btn-sm ml-5" href="#town">
+					<!-- <a class="btn btn-sm ml-5" href="#town">
 						Glimpse of the Town
-					</a>
+					</a> -->
 					<a class="btn btn-sm ml-5" href="#questions">
 						Q&A
 					</a>

@@ -5,7 +5,7 @@ export const tarotTheme: CustomThemeConfig = {
     name: 'tarot-theme',
     properties: {
 		// =~= Theme Properties =~=
-		"--theme-font-family-base": `Nathanos`,
+		"--theme-font-family-base": `Alegreya`,
 		"--theme-font-family-heading": `Nathanos`,
 		"--theme-font-color-base": "0 0 0",
 		"--theme-font-color-dark": "255 255 255",
