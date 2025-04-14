@@ -86,15 +86,16 @@
 					<a class="btn btn-sm ml-5" href="#events">
 						Events
 					</a>
+					<a class="btn btn-sm ml-5" href="#town">
+						Glimpse of the Town
+					</a>
 					<a class="btn btn-sm ml-5" href="#questions">
 						Q&A
 					</a>
 					<a class="btn btn-sm ml-5" href="#registry">
-						Registry
+						Our Registry
 					</a>
-					<a class="btn btn-sm ml-5" href="#town">
-						Glimpse of the Town
-					</a>
+					
 			</div>
 				
 				<svelte:fragment slot="trail">

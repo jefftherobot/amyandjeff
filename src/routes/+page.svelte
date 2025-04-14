@@ -6,6 +6,7 @@
 	import Registry from "$lib/components/Registry.svelte";
 	import Venue from "$lib/components/Venue.svelte";
 	import Rsvp from "$lib/components/Rsvp.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <div class="h-full w-full flex justify-center items-center">
@@ -16,20 +17,25 @@
 		<section id="events">
 			<Events />
 		</section>
+		<section id="town">
+			<Town />
+		</section>
+
+
+		<section id="venue">
+			<Venue />
+		</section>
 		<section id="questions">
 			<Questions />
 		</section>
 		<section id="registry">
 			<Registry />
 		</section>
-		<section id="town">
-			<Town />
-		</section>
-		<section id="venue">
-			<Venue />
-		</section>
 		<section id="rsvp">
 			<Rsvp />
+		</section>
+		<section id="footer">
+			<Footer />
 		</section>
 	</div>
 </div>
