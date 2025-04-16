@@ -15,6 +15,7 @@
     "@skeletonlabs/skeleton": "2.10.2",
     "@skeletonlabs/tw-plugin": "0.4.0",
     "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/adapter-static": "^3.0.8",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tailwindcss/forms": "0.5.8",
@@ -35,6 +36,7 @@
   "dependencies": {
     "@floating-ui/dom": "1.6.10",
     "@fontsource/alegreya": "^5.2.5",
-    "@fortawesome/fontawesome-free": "^6.6.0"
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "gh-pages": "^6.3.0"
   }
 }
