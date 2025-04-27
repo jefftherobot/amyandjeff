@@ -22,9 +22,9 @@
     } ,
     {
       "date": "11th October",
-      "time": "11:00pm",
-      "title": "After Party",
-      "description": "Guests are welcome back to our home for late-night snacks, refreshments, and a fire spinning performance in the cul-de-sac"
+      "time": "10:30pm",
+      "title": "After Party*",
+      "description": "*Guests are welcome back to our home for late-night snacks, refreshments, and a fire spinning performance in the cul-de-sac"
     }
   ]
 }
@@ -33,7 +33,7 @@
 
 
 <div class="p-4 md:p-7 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary ">
-  <h2 class="h2 mb-10">Events</h2>
+  <h2 class="h2 mb-10 mt-10">Schedule</h2>
   <div class="table-container mx-auto max-w-screen-md bg-surface-100-800-token">
     <!-- Native Table Element -->
     <table class="table">

@@ -8,11 +8,13 @@
   let submitted = false;
   let error = '';
 
+  //https://script.google.com/u/0/home/projects/1GUCSVw3lZa0_ED_zCTXnTU_cCzANdORG1C3R4RPxh4Je4OTYKzyJF7At/edit
+
   const submitForm = async () => {
     const payload = { name, guest, email, diet, attending, inviteCode };
    
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbyQA5qCRmGJ-91tkl5MKTQDyngGmZLvQMOnf9GXHfYNbYVLkfGdCiOYm3-EbwhwKBaUvA/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbzoEcOmDFTOWdtM9lO5QvSgWgargicpWp6lfjY2HK5_n9NfAjgePPREFLiJkOojD-rtBw/exec", {
         redirect: "follow",
         method: "POST",
         body: JSON.stringify(payload),
@@ -58,7 +60,7 @@
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
           <div class="input-group-shim"><i class="fa-solid fa-users"></i></div>
-          <input type="number" placeholder="Your guest count" bind:value={guest} required />
+          <input type="text" placeholder="Any guest names..." bind:value={guest} required />
         </div>
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
@@ -67,10 +69,10 @@
         </div>
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
-          <div class="input-group-shim"><i class="fa-solid fa-envelope-open-text"></i></div>
+          <div class="input-group-shim"><i class="fa-solid fa-envelope-open-text mr-2"></i> Coming?</div>
           <select class="select" bind:value={attending} required>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
+            <option value="Yes">Can't wait!</option>
+            <option value="No">I'll be there in spirit</option>
           </select>
         </div>
 
