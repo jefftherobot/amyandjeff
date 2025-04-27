@@ -32,8 +32,8 @@
 
 
 
-<div class="p-4 md:p-7 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary ">
-  <h2 class="h2 mb-10 mt-10">Schedule</h2>
+<div class="p-4 md:p-20 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary ">
+  <h2 class="h2 mb-10">Schedule</h2>
   <div class="table-container mx-auto max-w-screen-md bg-surface-100-800-token">
     <!-- Native Table Element -->
     <table class="table">
@@ -57,8 +57,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="3" class="text-center"><span class="text-xs"> {DATA.events[3].description}</span></td>
-
+          <td colspan="3" class="text-center"><span class="text-xs p-5"> {DATA.events[3].description}</span></td>
         </tr>
       </tfoot>
     </table>

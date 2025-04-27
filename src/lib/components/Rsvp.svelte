@@ -36,10 +36,10 @@
   };
 </script>
 
-<div class="p-4 md:p-10 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary "> 
+<div class="p-4 md:p-20 space-y-4 bg-gradient-to-br variant-gradient-primary-secondary "> 
   <h2 class="h2 mb-10">RSVP</h2>
   <div class="mx-auto max-w-screen-md bg-surface-100-800-token ">
-    <div class="card p-4 w-full text-token space-y-4">
+    <div class="card p-6 w-full text-token space-y-4">
       {#if submitted}
         <p>Thank you for your RSVP!</p>
       {:else}
