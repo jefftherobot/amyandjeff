@@ -17,9 +17,9 @@ hr {
 
 
 hr::before {
-  content: '\f186';
+  content: '\f699';
   font-family: 'Font Awesome 6 Free';
-  font-weight: 400;
+  font-weight: 600;
   color:  rgba(var(--color-primary-300) / 1);
   display: inline-block;
   position: absolute;

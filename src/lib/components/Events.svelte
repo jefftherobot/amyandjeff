@@ -57,7 +57,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="3" class="text-center"><span class="text-xs p-5"> {DATA.events[3].description}</span></td>
+          <td colspan="3" class="text-center"><span class="text-xs p-5 normal-case"> {DATA.events[3].description}</span></td>
         </tr>
       </tfoot>
     </table>

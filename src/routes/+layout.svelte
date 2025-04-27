@@ -60,7 +60,7 @@
 						</li>
 						<li>
 							<a href="#events" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
-								<span class="flex-auto">Events</span>
+								<span class="flex-auto">Schedule</span>
 							</a>
 						</li>
 						<li>
@@ -110,7 +110,7 @@
 				</svelte:fragment>
 				<div class="relative hidden lg:block uppercase">
 					<a class="btn btn-sm ml-5" href="#events">
-						Events
+						Schedule
 					</a>
 					<a class="btn btn-sm ml-5" href="#hotel">
 						Hotel
