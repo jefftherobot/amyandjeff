@@ -2,7 +2,7 @@
 	import Intro from "$lib/components/Intro.svelte";
 	import Events from "$lib/components/Events.svelte";
 	import Questions from "$lib/components/Questions.svelte";
-	import Town from "$lib/components/Town.svelte";
+	import Hotel from "$lib/components/Hotel.svelte";
 	import Registry from "$lib/components/Registry.svelte";
 	import Venue from "$lib/components/Venue.svelte";
 	import Rsvp from "$lib/components/Rsvp.svelte";
@@ -22,6 +22,9 @@
 		</section> -->
 		<section id="venue">
 			<Venue />
+		</section>
+		<section id="hotel">
+			<Hotel />
 		</section>
 		<section id="questions">
 			<Questions />

@@ -89,9 +89,9 @@
 					<a class="btn btn-sm ml-5" href="#events">
 						Events
 					</a>
-					<!-- <a class="btn btn-sm ml-5" href="#town">
-						Glimpse of the Town
-					</a> -->
+					<a class="btn btn-sm ml-5" href="#hotel">
+						Hotel
+					</a>
 					<a class="btn btn-sm ml-5" href="#questions">
 						Q&A
 					</a>
