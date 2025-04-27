@@ -9,7 +9,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "npm run build && gh-pages -d build --cname amyandjeff.love"
   },
   "devDependencies": {
     "@skeletonlabs/skeleton": "2.10.2",
