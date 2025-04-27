@@ -36,6 +36,7 @@
 <style>
   a {
     position: relative;
+    width: 80px;
   }
   span {
     position: absolute;
@@ -54,9 +55,9 @@
     /* transform: rotate(25deg); */
   }
 	.st0{
-    fill:rgb(var(--color-primary-400));
+    fill:rgb(var(--color-surface-700));
   }
   .st1{
-    fill:rgb(var(--color-primary-500));
+    fill:rgb(var(--color-surface-600));
   }
 </style>
