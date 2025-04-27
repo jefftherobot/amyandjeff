@@ -17,9 +17,6 @@
 		<section id="events">
 			<Events />
 		</section>
-		<!-- <section id="town">
-			<Town />
-		</section> -->
 		<section id="venue">
 			<Venue />
 		</section>

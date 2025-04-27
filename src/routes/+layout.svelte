@@ -51,16 +51,35 @@
 			<nav class="list-nav">
 				<ul>
 						<li>
-							<a href="#rsvp" class="{classesActive("#rsvp")}" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
-								<span class="flex-auto">RSVP</span>
-							</a>
-						</li>
-						<li>
-							<a href="#venue" class="{classesActive("#venue")}"  data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+							<a href="#venue" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
 								<span class="flex-auto">Venue</span>
 							</a>
 						</li>
-						
+						<li>
+							<a href="#events" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">Events</span>
+							</a>
+						</li>
+						<li>
+							<a href="#hotel" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">Hotel</span>
+							</a>
+						</li>
+						<li>
+							<a href="#questions" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">Q&A</span>
+							</a>
+						</li>
+						<li>
+							<a href="#registry" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">Our Registry</span>
+							</a>
+						</li>
+						<li>
+							<a href="#rsvp" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
+								<span class="flex-auto">RSVP</span>
+							</a>
+						</li>
 				</ul>
 			</nav>
 			<!-- Divider -->
