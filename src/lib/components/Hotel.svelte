@@ -3,7 +3,7 @@
 </script>
 
 <h3 class="mt-10 h3">Hotel</h3>
-<HorizontalRule/>
+<HorizontalRule />
 <div class="flex justify-center m-10">
   <div>
   <p>

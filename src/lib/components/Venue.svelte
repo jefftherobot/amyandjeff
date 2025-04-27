@@ -1,6 +1,3 @@
-<script lang="ts">
-	import HorizontalRule from "$lib/components/HorizontalRule.svelte";
-</script>
 
 <div class="photo">
   <div class="flex items-center justify-center photo-overlay bg-secondary-700/50">

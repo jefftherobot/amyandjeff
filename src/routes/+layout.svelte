@@ -24,6 +24,7 @@
 	import { page } from '$app/stores';
 
 	import Logo from "$lib/components/Logo.svelte";
+	import HorizontalRuleMenu from "$lib/components/HorizontalRuleMenu.svelte";
 
 	const drawerStore = getDrawerStore();
 
@@ -76,6 +77,9 @@
 							<a href="#registry" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
 								<span class="flex-auto">Our Registry</span>
 							</a>
+						</li>
+						<li>
+							<HorizontalRuleMenu/>
 						</li>
 						<li>
 							<a href="#rsvp" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover" on:keypress on:click={drawerStore.close}>
