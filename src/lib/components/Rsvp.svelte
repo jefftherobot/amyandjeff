@@ -60,7 +60,7 @@
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
           <div class="input-group-shim"><i class="fa-solid fa-users"></i></div>
-          <input type="text" placeholder="Any guest names..." bind:value={guest} required />
+          <input type="text" placeholder="Your +1 name..." bind:value={guest} required />
         </div>
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">

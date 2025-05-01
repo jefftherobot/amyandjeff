@@ -20,7 +20,7 @@
       Check-Out: Sunday, October 12, 2025
     </p>
     <p class="mt-10">
-      <a class="btn variant-filled-tertiary" href="https://www.hilton.com/en/hotels/phlsphx-hampton-suites-philadelphia-media/">Book Hotel Room</a>
+      <a class="btn variant-filled-tertiary" href="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PHLSPHX&groupCode=CHHMGW&arrivaldate=2025-10-11&departuredate=2025-10-12&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Book Hotel Room</a>
     </p>
   </div>
 </div>

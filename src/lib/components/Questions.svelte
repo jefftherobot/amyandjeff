@@ -9,39 +9,46 @@
     },
     {
       "question": "What date should I RSVP by?",
-      "answer": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat."
+      "answer": "August 30, 2025"
     },
     {
-      "question": "What's the easiest way to get to and from your wedding?",
-      "answer": "Est consectetur ut amet mollit velit esse culpa. Est esse ea est quis. Do irure est excepteur non. Mollit anim proident anim veniam id. Laborum ex pariatur velit veniam veniam veniam laborum reprehenderit eiusmod ipsum Lorem cillum. Sit consequat consequat adipisicing ex eiusmod consectetur dolore voluptate fugiat ut eu reprehenderit minim."
+      "question": "Is there a hotel reservation block?",
+      "answer": "Yes! Reservations can be made at the Hampton Inn & Suites Philadelphia/Media, which is a 5 minute drive to the wedding venue. Please <a class='text-primary-400' href='#hotel'>see here</a> for hotel block and information"
     },
     {
-      "question": "Is there parking available near your wedding venue?",
-      "answer": "Consequat duis dolor qui aute cillum esse tempor veniam do tempor magna. Dolor non voluptate nostrud sunt aliquip exercitation sunt ad do anim sint esse sit. Irure ipsum aliqua tempor mollit fugiat quis occaecat tempor dolore officia. Laborum officia irure do nisi cupidatat et laboris duis pariatur. Id voluptate proident dolore et eu velit occaecat dolore laboris esse voluptate consectetur officia. Aute Lorem nostrud cupidatat pariatur amet sit aliquip. Cupidatat nisi in exercitation pariatur qui qui irure amet."
+      "question": "Are the ceremony and reception happening at the same venue?",
+      "answer": "Yes! Both are happening at The Old Mill"
     },
     {
-      "question": "Will your wedding be indoors or outdoors",
-      "answer": "Tempor eiusmod proident ipsum tempor elit irure esse irure velit id anim proident proident. Reprehenderit commodo labore sint aliquip consectetur qui enim proident. Dolore quis duis Lorem esse aute magna in. Amet laboris aliqua consectetur nisi incididunt laborum do in adipisicing cillum sunt excepteur. Id eu sunt occaecat sit Lorem mollit Lorem non aliqua excepteur ad labore esse. Veniam aliqua minim amet adipisicing exercitation sint duis est."
+      "question": "Is there parking at the venue?",
+      "answer": "Yes! The venue will have plenty of parking for our guests onsite. <br> There is no valet parking for this event."
     },
     {
-      "question": "Will there be a shuttle to and/or from the hotel?",
-      "answer": "Aute eu cupidatat nisi Lorem id ullamco dolor commodo eiusmod velit incididunt laborum dolor occaecat. Non duis do pariatur do ullamco pariatur eiusmod amet adipisicing excepteur ut et. Non deserunt ex reprehenderit aute velit cillum dolore duis consequat consequat nulla mollit labore. Tempor commodo nostrud laborum sint sit id tempor eiusmod officia labore amet. Consectetur eiusmod officia veniam eiusmod sunt aliqua cupidatat dolore anim eiusmod tempor nulla nulla et. Tempor qui enim et commodo ex est excepteur."
+      "question": "Is the wedding indoor or outdoor?",
+      "answer": "Both the ceremony and cocktail hour will be held outdoors in spaces adjacent to the indoor reception hall. In the case of inclement weather, the ceremony will shift to the pavilion and the cocktail hour and reception will occur indoors. The weather in early October may be slightly chilly, so plan accordingly!"
     },
     {
-      "question": "What's the dress code for your wedding?",
-      "answer": "Pariatur irure ipsum nulla commodo consequat amet qui consequat. Nulla proident ipsum enim velit nulla sunt amet. Consequat officia exercitation veniam cupidatat velit dolore Lorem mollit. Ut minim commodo est deserunt magna cillum ad velit elit elit consectetur. Ut ad nisi excepteur in nisi officia aliqua qui minim consectetur consequat sit reprehenderit esse. Est proident in Lorem aute officia eiusmod voluptate dolore culpa qui."
+      "question": "Is there a theme for the wedding?",
+      "answer": "The decor and style of the wedding will be Gothic Victorian. The dress code is cocktail formal attire, and guests are welcome to incorporate the theme as much or as little as they would like!"
     },
     {
-      "question": "What time should I arrive at your wedding ceremony?",
-      "answer": "Anim eu do ullamco aute. Excepteur labore fugiat deserunt nulla sit enim do et ea labore ad ullamco irure. Consectetur id commodo elit adipisicing nisi voluptate eiusmod duis."
+      "question": "What is the dress code?",
+      "answer": "The dress code is cocktail formal attire. Any color is fine! The bride won't be wearing white or black and no color is off limits. <br> <br> <p class='text-sm'>TIP: Cocktail formal attire is a semi-formal dress code that typically involves a suit and tie for men, and knee-length/midi dresses, jumpsuits, or fun separates for women (in addition to a longer dress option).</p>"
     },
     {
+      "question": "What are flow arts?",
+      "answer": "Flow arts are a unique art form based on combining object manipulation with other movement arts such as dance or martial arts. In other words, flow arts it's like dancing and moving with different, not only, juggling props. Another term often used to describe the flow arts or juggling is spinning. The most well-known props of flow arts include poi, staffs/sticks, fans, buugeng, hula hoops, dragonstaff, contact balls and many others."
+    },{
       "question": "What is fire spinning?",
-      "answer": "Minim non cupidatat laborum duis consectetur exercitation sit veniam cupidatat. In labore laboris est elit. Aliquip sint officia non labore enim nulla adipisicing nostrud deserunt dolore exercitation in. Reprehenderit et sint non cillum veniam id culpa commodo amet enim do commodo ad reprehenderit. Deserunt minim sunt aute nostrud cupidatat nostrud eu ex velit. Id nostrud laboris proident consectetur fugiat sunt magna elit commodo eu qui."
+      "answer": "Fire spinning, also known as fire performance or fire dancing, is an art form that combines flow arts (like juggling and twirling) with the use of fire."
     },
     {
       "question": "What's with the after party?",
-      "answer": "Amet esse ipsum ex excepteur dolor magna deserunt ut. Adipisicing sit occaecat nisi nisi pariatur occaecat quis fugiat labore dolore ad consequat sunt. Irure esse do aliquip laborum duis sit nisi velit."
+      "answer": "Yes! We'd like to welcome guests to visit our home afterwards for light snacks and refreshments and some casual fire spinning in our cul-de-sac. We will need to close out the venue between 10:00 and 11:00 pm, but some family members will be at the house to welcome folks prior to our arrival back home."
+    },
+    {
+      "question": "Will there be other events to attend on the wedding weekend?",
+      "answer": "We will be holding a family brunch the next morning at a local restaurant. Details will be communicated closer to the wedding, but we wanted to mention it here so you can plan with that in mind!"
     }
   ]
 }
@@ -63,7 +70,7 @@
         </svelte:fragment>
         <svelte:fragment slot="content">
           <p>
-            {faq.answer}
+            {@html faq.answer}
           </p>
         </svelte:fragment>
       </AccordionItem>
