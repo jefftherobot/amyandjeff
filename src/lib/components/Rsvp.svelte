@@ -1,10 +1,11 @@
 <script>
   let name = '';
+  let hasGuest = '';
   let guest = '';
   let email = '';
   let diet = '';
   let inviteCode = '';
-  let attending = 'Yes';
+  let attending = '';
   let submitted = false;
   let error = '';
 
@@ -58,9 +59,12 @@
           <input type="text" placeholder="Your first and last name..." bind:value={name} required />
         </div>
 
-        <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
-          <div class="input-group-shim"><i class="fa-solid fa-users"></i></div>
-          <input type="text" placeholder="Your +1 name..." bind:value={guest} required />
+				<div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
+          <div class="input-group-shim"><i class="fa-solid fa-envelope-open-text mr-2"></i> Coming?</div>
+          <select class="select" bind:value={attending} required>
+            <option value="yes">Can't wait!</option>
+            <option value="no">I'll be there in spirit</option>
+          </select>
         </div>
 
         <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
@@ -68,18 +72,24 @@
           <input type="text" placeholder="Any Dietary Restrictions?" bind:value={diet} required />
         </div>
 
-        <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
-          <div class="input-group-shim"><i class="fa-solid fa-envelope-open-text mr-2"></i> Coming?</div>
-          <select class="select" bind:value={attending} required>
-            <option value="Yes">Can't wait!</option>
-            <option value="No">I'll be there in spirit</option>
+				<div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
+          <div class="input-group-shim"><i class="fa-solid fa-user-plus mr-2"></i> Do you have a guest?</div>
+          <select class="select" bind:value={hasGuest} required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
           </select>
         </div>
 
-        <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
+        <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]" class:hidden={hasGuest!="yes"}>
+          <div class="input-group-shim"><i class="fa-solid fa-bars-staggered"></i></div>
+          <input type="text" placeholder="Your guest name..." bind:value={guest} required />
+        </div>
+
+
+        <!-- <div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
           <div class="input-group-shim"><i class="fa-solid fa-key"></i></div>
           <input class="input" type="text" placeholder="Your invite code..." bind:value={inviteCode} required />
-        </div>
+        </div> -->
       </div>
         <button type="submit" class="btn variant-filled-primary mt-5">Submit RSVP</button>
 
