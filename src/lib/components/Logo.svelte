@@ -55,9 +55,9 @@
     /* transform: rotate(25deg); */
   }
 	.st0{
-    fill:rgb(var(--color-surface-700));
+    fill:rgb(var(--color-primary-600));
   }
   .st1{
-    fill:rgb(var(--color-surface-600));
+    fill:rgb(var(--color-primary-500));
   }
 </style>

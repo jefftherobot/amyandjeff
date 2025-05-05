@@ -44,11 +44,7 @@
     },
     {
       "question": "What's with the after party?",
-      "answer": "Yes! We'd like to welcome guests to visit our home afterwards for light snacks and refreshments and some casual fire spinning in our cul-de-sac. We will need to close out the venue between 10:00 and 11:00 pm, but some family members will be at the house to welcome folks prior to our arrival back home."
-    },
-    {
-      "question": "Will there be other events to attend on the wedding weekend?",
-      "answer": "We will be holding a family brunch the next morning at a local restaurant. Details will be communicated closer to the wedding, but we wanted to mention it here so you can plan with that in mind!"
+      "answer": "We'd like to welcome guests to visit our home afterwards for light snacks and refreshments and some casual fire spinning in our cul-de-sac. We will need to close out the venue between 10:00 and 11:00 pm, but some family members will be at the house to welcome folks prior to our arrival back home."
     }
   ]
 }

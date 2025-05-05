@@ -1,5 +1,13 @@
 <script lang="ts">
 	import HorizontalRule from "$lib/components/HorizontalRule.svelte";
+	import { popup } from '@skeletonlabs/skeleton';
+	import type { PopupSettings } from '@skeletonlabs/skeleton';
+
+	const ndHover: PopupSettings = {
+		event: 'hover',
+		target: 'ndHover',
+		placement: 'top'
+};
 </script>
 
 <h2 class="h2 mt-10 md:mt-20">Registry</h2>
@@ -12,8 +20,13 @@
   </div>
   <div class="flex justify-center items-center mx-auto transition-[width] duration-200 w-full ">
     <div class="gap-4">
-      <a href="#" class="btn variant-filled-tertiary">Option 1</a>
+      <a href="https://thendalliance.org/support/" class="btn variant-filled-tertiary [&>*]:pointer-events-none" use:popup={ndHover}>ND Alliance</a>
       <a href="#" class="btn variant-filled-secondary">Option 2</a>
     </div>
   </div>
+</div>
+
+<div class="card p-4 variant-filled-secondary max-w-sm" data-popup="ndHover">
+	<p>The Neurodiversity Alliance, or “ND Alliance” for short, is the leading nonprofit organization founded by and for students who learn differently with the largest online community and national network of neurodiversity clubs in the country.</p>
+	<div class="arrow variant-filled-secondary" />
 </div>
