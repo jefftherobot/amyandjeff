@@ -4,7 +4,7 @@
   let guest = '';
   let email = '';
   let diet = '';
-  let inviteCode = '';
+  //let inviteCode = '';
   let attending = '';
   let submitted = false;
   let error = '';
@@ -12,10 +12,10 @@
   //https://script.google.com/u/0/home/projects/1GUCSVw3lZa0_ED_zCTXnTU_cCzANdORG1C3R4RPxh4Je4OTYKzyJF7At/edit
 
   const submitForm = async () => {
-    const payload = { name, guest, email, diet, attending, inviteCode };
+    const payload = { name, hasGuest, guest, email, diet, attending };
    
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbzoEcOmDFTOWdtM9lO5QvSgWgargicpWp6lfjY2HK5_n9NfAjgePPREFLiJkOojD-rtBw/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbxGSplIY8fOIdTrNnDiWneA6hi937fNI4K8Udbx1HUZrIS4DlQm5Z7BSLBdah3XBhL9YQ/exec", {
         redirect: "follow",
         method: "POST",
         body: JSON.stringify(payload),
