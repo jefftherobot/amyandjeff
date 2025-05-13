@@ -125,10 +125,10 @@
 			</div>
 				
 				<svelte:fragment slot="trail">
-					<a class="btn btn-sm variant-ghost-surface" href="#venue">
+					<a class="btn variant-ghost-surface" href="#venue">
 						Venue
 					</a>
-					<a class="btn btn-smv variant-filled-primary" href="#rsvp">
+					<a class="btn variant-filled-primary" href="#rsvp">
 						RSVP
 					</a>
 				</svelte:fragment>
