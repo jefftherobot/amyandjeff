@@ -14,8 +14,11 @@
 </script>
 
 <div class="photo">
-  <div on:click={onClick} class="flex items-center justify-center photo-overlay bg-secondary-700/50 cursor-pointer">
+  <div on:click={onClick} class="flex items-center justify-center photo-overlay bg-secondary-700/60 cursor-pointer">
+		<div>
     <h2 class="h2 mb-10">The Old Mill</h2>
+			<p>9 Old Mill Ln, Rose Valley, PA 19063</p>
+	</div>
   </div>
 </div>
 

@@ -8,9 +8,9 @@
 		target: 'ndHover',
 		placement: 'top'
 	};
-	const aaneHover: PopupSettings = {
+	const pflagHover: PopupSettings = {
 		event: 'hover',
-		target: 'aaneHover',
+		target: 'pflagHover',
 		placement: 'top'
 	};
 </script>
@@ -21,22 +21,26 @@
 
 <div class="p-10 md:p-20 pt-2 md:pt-3 space-y-8 "> 
   <div class="mx-auto max-w-screen-md flex justify-center">
-    <p>In lieu of traditional gifts, we invite you to celebrate our wedding by supporting a cause close to our hearts. We've chosen to include a couple donation options to nonprofits dedicated to neurodiversity, advocating for inclusion, understanding, and empowerment of neurodivergent individuals. Your gift will help create a more accepting and supportive world for all minds—thank you for being part of something meaningful on our special day.</p>
+    <p>In lieu of traditional gifts, we invite you to celebrate our wedding by supporting causes close to our hearts.
+			<br><br>
+			We've chosen to include a couple donation options to nonprofits dedicated to neurodiversity, advocating for inclusion, understanding, and empowerment of neurodivergent individuals, as well as PFLAG, an organization committed to advancing equality and acceptance for LGBTQ+ individuals.
+			<br><br>
+		Your gift will help create a more accepting and supportive world for all minds and identities—thank you for being part of something meaningful on our special day.</p>
   </div>
   <div class="flex justify-center items-center mx-auto transition-[width] duration-200 w-full ">
     <div class="gap-4">
       <a href="https://thendalliance.org/support/" target="_blank" class="btn variant-filled-tertiary [&>*]:pointer-events-none" use:popup={ndHover}>ND Alliance</a>
-      <a href="https://aane.org/" target="_blank" class="btn variant-filled-secondary [&>*]:pointer-events-none" use:popup={aaneHover}>AANE</a>
+      <a href="https://pflag.org/donate/" target="_blank" class="btn variant-filled-secondary [&>*]:pointer-events-none" use:popup={pflagHover}>PFLAG</a>
     </div>
   </div>
 </div>
 
 <div class="card p-4 variant-filled-tertiary max-w-sm" data-popup="ndHover">
-	<p>The Neurodiversity Alliance, or “ND Alliance” for short, is the leading nonprofit organization founded by and for students who learn differently with the largest online community and national network of neurodiversity clubs in the country.</p>
+	<p>The Neurodiversity Alliance, or "ND Alliance" for short, is the leading nonprofit organization founded by and for students who learn differently with the largest online community and national network of neurodiversity clubs in the country.</p>
 	<div class="arrow variant-filled-tertiary" />
 </div>
 
-<div class="card p-4 variant-filled-secondary max-w-sm" data-popup="aaneHover">
-	<p>The Association for Autism and Neurodiversity (AANE) - formerly known as the Asperger/Autism Network - helps Autistic and similarly Neurodivergent people build meaningful, connected lives. We provide individuals, families, and professionals with education, community, and support, in an inclusive atmosphere of validation and respect. </p>
+<div class="card p-4 variant-filled-secondary max-w-sm" data-popup="pflagHover">
+	<p> PFLAG is the nation's largest organization dedicated to supporting, educating, and advocating for LGBTQ+ people and those who love them.</p>
 	<div class="arrow variant-filled-secondary" />
 </div>

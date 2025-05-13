@@ -1,7 +1,6 @@
 
 
 <a class="text-xl" href="#intro" title="Go to Homepage">
-  A 
 
 <svg
 			class="fill-token"
@@ -28,27 +27,17 @@
         </g>
       </g>
 </svg>
-<span>J</span>
 </a>
-
-
 
 <style>
   a {
     position: relative;
     width: 80px;
   }
-  span {
-    position: absolute;
-    left:40px;
-    top: 0px;
-    z-index: 1;
-    /* transform: rotate(20deg); */
-  }
   svg {
-    position: absolute;
-    top: -12px;
-    left:-1px;
+  	 position: absolute;
+		 top: -25px;
+		 left: 0;
     z-index:0;
     width: 52px;
     display: inline-block;
