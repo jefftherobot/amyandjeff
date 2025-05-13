@@ -7,7 +7,12 @@
 		event: 'hover',
 		target: 'ndHover',
 		placement: 'top'
-};
+	};
+	const aaneHover: PopupSettings = {
+		event: 'hover',
+		target: 'aaneHover',
+		placement: 'top'
+	};
 </script>
 
 <h2 class="h2 mt-10 md:mt-20">Registry</h2>
@@ -20,13 +25,18 @@
   </div>
   <div class="flex justify-center items-center mx-auto transition-[width] duration-200 w-full ">
     <div class="gap-4">
-      <a href="https://thendalliance.org/support/" class="btn variant-filled-tertiary [&>*]:pointer-events-none" use:popup={ndHover}>ND Alliance</a>
-      <a href="#" class="btn variant-filled-secondary">Option 2</a>
+      <a href="https://thendalliance.org/support/" target="_blank" class="btn variant-filled-tertiary [&>*]:pointer-events-none" use:popup={ndHover}>ND Alliance</a>
+      <a href="https://aane.org/" target="_blank" class="btn variant-filled-secondary [&>*]:pointer-events-none" use:popup={aaneHover}>AANE</a>
     </div>
   </div>
 </div>
 
-<div class="card p-4 variant-filled-secondary max-w-sm" data-popup="ndHover">
+<div class="card p-4 variant-filled-tertiary max-w-sm" data-popup="ndHover">
 	<p>The Neurodiversity Alliance, or “ND Alliance” for short, is the leading nonprofit organization founded by and for students who learn differently with the largest online community and national network of neurodiversity clubs in the country.</p>
+	<div class="arrow variant-filled-tertiary" />
+</div>
+
+<div class="card p-4 variant-filled-secondary max-w-sm" data-popup="aaneHover">
+	<p>The Association for Autism and Neurodiversity (AANE) - formerly known as the Asperger/Autism Network - helps Autistic and similarly Neurodivergent people build meaningful, connected lives. We provide individuals, families, and professionals with education, community, and support, in an inclusive atmosphere of validation and respect. </p>
 	<div class="arrow variant-filled-secondary" />
 </div>
