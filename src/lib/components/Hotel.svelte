@@ -11,7 +11,7 @@
       Philadelphia/Media<br>
       300 Beatty Rd <br>
       Media PA 19063<br>
-      (484) 443-8899m
+      (484) 443-8899
     </p>
     <p class="mt-7 mb-1">
       Check-In: Friday, October 10, 2025
@@ -20,7 +20,7 @@
       Check-Out: Sunday, October 12, 2025
     </p>
     <p class="mt-10">
-      <a class="btn variant-filled-tertiary" href="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PHLSPHX&groupCode=CHHMGW&arrivaldate=2025-10-11&departuredate=2025-10-12&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Book Hotel Room</a>
+      <a class="btn variant-filled-tertiary" target="_blank" href="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PHLSPHX&groupCode=CHHMGW&arrivaldate=2025-10-11&departuredate=2025-10-12&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Book Hotel Room</a>
     </p>
   </div>
 </div>
