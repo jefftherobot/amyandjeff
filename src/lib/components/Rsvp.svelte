@@ -50,7 +50,7 @@
 			
       {#if submitted}
 				{#if attending=="no"}
-        <p>Wow. Heartbroken. Betrayed. Just kidding… but only a little. We'll raise a <i class="fa-solid fa-martini-glass"></i> in your honor!</p>
+        <p>We'll raise a <i class="fa-solid fa-martini-glass"></i> in your honor!</p>
 				{:else}
         <p>Fantastic! Bring your dancing shoes, questionable party tricks, and your charming self. We'll pretend we weren't worried you'd <i class="fa-solid fa-ghost"></i> us.</p>
 				{/if}
